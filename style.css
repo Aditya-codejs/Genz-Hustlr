@@ -5,7 +5,7 @@
     color: #07090a;
     background-color:bisque;
     min-height: 400px;
-    width: 1300px;
+    width: auto;
     position: relative;
 }
 .upper-box h1{
