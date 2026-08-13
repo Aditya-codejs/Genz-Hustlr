@@ -39,7 +39,7 @@
 }
 .featured-products-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 per row like the reference */
+  grid-template-columns: repeat(4, 1fr); /* 4   block per row  */
   gap: 24px;
   padding: 40px;
 }
