@@ -63,7 +63,8 @@
 .product-card .price {
   font-weight: bold;
   margin: 4px 0;
-  margin-left: 70px;
+  margin-left: 170px;
+  margin-top: 10px;
 }
 .add-cart-btn {
   border: none;
