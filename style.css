@@ -1,0 +1,44 @@
+.upper-box{
+    margin-top:50px;
+    margin-left: 50px;
+    border-radius:100px;
+    color: #07090a;
+    background-color:bisque;
+    height: 400px;
+    width: 1400px;
+    position: relative;
+}
+.upper-box h1{
+    margin-left: 50px;
+    padding-top: 30px;  
+}
+.upper-box p{
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 20px;;
+    font-style: oblique;
+}
+.genz-image{
+    border-radius: 350px;
+    height: 350px;
+    width: 350px;
+}
+.logo{
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    transform: translateY(-50%);
+}
+.lower-content h1{
+    text-align: center;
+}
+.lower-content p{
+    text-align: center;
+    font-size: 20px;
+    font-style:italic;
+}
+.item-box{
+    height : 200px;
+    width : 200px;
+    background-color:#f9c7d7
+}
