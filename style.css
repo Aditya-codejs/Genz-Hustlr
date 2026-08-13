@@ -4,8 +4,8 @@
     border-radius:100px;
     color: #07090a;
     background-color:bisque;
-    height: 400px;
-    width: 500px;
+    min-height: 400px;
+    width: 1300px;
     position: relative;
 }
 .upper-box h1{
@@ -26,7 +26,7 @@
 .logo{
     position: absolute;
     top: 200px;
-    right: 80px;
+    right: 40px;
     transform: translateY(-50%);
 }
 .lower-content h1{
