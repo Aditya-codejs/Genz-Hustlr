@@ -89,7 +89,7 @@
 .sidebar{
   display: grid;
   grid-template-columns:  1fr;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4,1fr);
   width: 200px;
   height: 400px;
   border: 2px solid black;
@@ -117,16 +117,12 @@
   }
   .sidebar{
     display: flex;
-/*     grid-template-columns:  1fr;
-    grid-template-rows: repeat(4,1fr); */
-    width:100%;
+    grid-template-columns:  1fr;
+    grid-template-rows: repeat(4,1fr);
+    width: 100%;
     height: auto;
     border: 2px solid black;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px 0;
-
+    flex-shrink: 0;
   }
   .sidebar a{
     display: flex;
@@ -136,7 +132,6 @@
     text-decoration: none;
     color: black;
     font-size: 30px;
-    padding: 8px 16px;
   }
   .sidebar a :hover{
     background-color: #eee;
