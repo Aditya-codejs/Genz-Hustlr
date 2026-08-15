@@ -41,7 +41,7 @@
 .featured-products-grid {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4   block per row  */
+  grid-template-columns: repeat(3, 1fr); /* 4   block per row  */
   gap: 24px;
   padding: 20px;
 }
