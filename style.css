@@ -112,6 +112,20 @@
   font-size: 30px;
 }
 @media (max-width : 768px){
+  .upper-box{
+    min-height: 600px;
+    padding-bottom: 60px;
+  }
+  .logo{
+    top: auto;
+    bottom: 30%;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .genz-image{
+    width: 200px;
+    height:200px
+  }
   .wrapper{
   flex-direction: column;
   }
