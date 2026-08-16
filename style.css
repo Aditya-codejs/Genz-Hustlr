@@ -115,18 +115,30 @@
 }
 @media (max-width : 768px){
   .upper-box{
-    min-height: 600px;
-    padding-bottom: 60px;
+    height:auto;
+    min-height: unset;
+    padding-bottom: 40px;
+  }
+  .upper-box p{
+    max-width: 100%;
   }
   .logo{
-    top: auto;
-    bottom: 30%;
-    right: 50%;
-    transform: translateX(50%);
+    position: static;
+    display: block;
+    bottom: auto;
+    right: auto;
+    margin :20px auto 0;
+    transform: none;
   }
   .genz-image{
     width: 200px;
     height:200px;
+    display: block;
+    margin : 0 auto;
+  }
+  .shop-layout{
+    flex-direction: column;
+    padding: 0 15px;
   }
   .featured-products-grid{
     grid-template-columns: repeat(3 ,1fr);
