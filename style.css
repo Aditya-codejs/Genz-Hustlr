@@ -114,47 +114,6 @@
   font-size: 30px;
 }
 @media (max-width : 768px){
-  .upper-box{
-    height:auto;
-    min-height: unset;
-    padding-bottom: 40px;
-  }
-  .upper-box p{
-    max-width: 100%;
-  }
-  .logo{
-    position: static;
-    display: block;
-    bottom: auto;
-    right: auto;
-    margin :20px auto 0;
-    transform: none;
-  }
-  .genz-image{
-    width: 200px;
-    height:200px;
-    display: block;
-    margin : 0 auto;
-  }
-  .shop-layout{
-    flex-direction: column;
-    padding: 0 15px;
-  }
-  .featured-products-grid{
-    grid-template-columns: repeat(3 ,1fr);
-    gap: 10px;
-    padding: 10px;
-  }
-  .product-card h4{
-    font-size: 14px;
-  }
-  .product-card .price{
-    font-size: 13px;
-    margin-left: 0;
-  }
-  .add-cart-btn{
-    font-size: 11px;
-  }
   .wrapper{
   flex-direction: column;
   }
