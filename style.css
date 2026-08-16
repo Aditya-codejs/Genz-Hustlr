@@ -114,6 +114,21 @@
   font-size: 30px;
 }
 @media (max-width : 768px){
+  .featured-products-grid{
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  .product-card h4{
+    font-size: 14px;
+  }
+  .product-card .price{
+    font-size: 13px;
+    margin-left: 0;
+  }
+  .add-cart-btn{
+    font-size: 11px;
+  }
   .wrapper{
   flex-direction: column;
   }
